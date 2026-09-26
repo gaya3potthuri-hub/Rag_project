@@ -247,25 +247,35 @@ def home():
 # Ask endpoint
 @app.route("/ask", methods=["POST"])
 def ask():
+    try:
+        data = request.get_json()
+        question = data.get("question", "")
 
-    data = request.get_json()
+        if not question:
+            return jsonify({
+                "answer": "Please enter a question."
+            })
 
-    question = data.get("question", "")
+        print("Question received:", question)
+        print("Running RAG chain...")
 
+        answer = rag_chain.invoke(question)
 
-    if not question:
+        print("RAG answer generated successfully.")
 
         return jsonify({
-            "answer": "Please enter a question."
+            "answer": answer
         })
 
+    except Exception as e:
+        print("ERROR IN /ask:")
+        print(type(e).__name__)
+        print(str(e))
 
-    answer = rag_chain.invoke(question)
-
-
-    return jsonify({
-        "answer": answer
-    })
+        return jsonify({
+            "answer": "An error occurred while processing your question.",
+            "error": str(e)
+        }), 500
 
 
 # Run application
