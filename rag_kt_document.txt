@@ -1,0 +1,467 @@
+InnovateCorp
+Knowledge Transfer (KT) Document
+Project Alpha • RAG Knowledge Base
+Important: InnovateCorp, its employees, projects, URLs, systems, policies, and organizational details are entirely fictional and created for knowledge-base/RAG testing purposes.
+1. Company Overview
+1.1 About InnovateCorp
+InnovateCorp Technologies Pvt. Ltd. is a fictional technology company headquartered in Hyderabad, India. The company develops cloud-based enterprise software products focused on workflow automation, data analytics, artificial intelligence, and business process optimization.
+InnovateCorp was established in 2019 by its fictional founders Arjun Mehta and Kavya Rao. The company began with a small engineering team of eight employees and expanded into several technology divisions.
+As of September 2026, InnovateCorp has approximately 180 employees distributed across engineering, product management, quality assurance, design, information technology, security, human resources, and business operations.
+1.2 Company Offices
+Hyderabad — Engineering, Product, and IT.
+Bengaluru — Data Engineering and AI Research.
+Pune — Customer Success and Operations.
+Remote — Distributed employees.
+The Hyderabad office is the primary location for Project Alpha.
+1.3 Business Areas
+InnovateCorp operates in enterprise workflow automation, business intelligence, cloud application development, artificial intelligence, data engineering, API integration, enterprise security, and process monitoring.
+1.4 Company Website
+Company website: https://www.innovatecorp.example.com
+Internal employee portal: https://portal.innovatecorp.example.com
+Engineering portal: https://engineering.innovatecorp.example.com
+All URLs in this document are fictional.
+2. Company Mission and Values
+2.1 Mission
+InnovateCorp’s mission is: “Build reliable technology that makes complex business processes simple, measurable, and accessible.”
+2.2 Vision
+The long-term vision is to become a trusted provider of intelligent enterprise automation platforms.
+2.3 Core Values
+1. Customer First — Consider customer requirements and business impact.
+2. Engineering Excellence — Build maintainable, tested, documented, and secure software.
+3. Transparency — Communicate project status, risks, blockers, and technical decisions openly.
+4. Continuous Learning — Learn new technologies and share knowledge.
+5. Ownership — Take responsibility for committed work and communicate problems proactively.
+6. Security by Design — Consider security during design and development.
+3. Organization and Team Structure
+3.1 Executive Structure
+Chief Executive Officer: Arjun Mehta
+Chief Technology Officer: Kavya Rao
+Chief Product Officer: Daniel Thomas
+Chief Information Security Officer: Meera Iyer
+Head of Human Resources: Neha Kapoor
+3.2 Engineering Organization
+The Engineering division is managed by the CTO and contains Platform Engineering, Application Engineering, Data Engineering, AI Engineering, Quality Engineering, and DevOps / Cloud Engineering.
+3.3 Project Alpha Team
+Priya Nair — Engineering Manager
+Rohan Sharma — Technical Lead
+Ananya Iyer — Senior Backend Developer
+Vikram Patel — Backend Developer
+Sneha Reddy — Frontend Developer
+Rahul Verma — Full Stack Developer
+Meera Joshi — QA Lead
+Arjun Rao — QA Engineer
+Karthik Menon — DevOps Engineer
+Divya Shah — Product Manager
+Neel Kapoor — UI/UX Designer
+3.4 Reporting Structure
+The Project Alpha engineering team reports to Priya Nair. Technical decisions are coordinated by Rohan Sharma. Product requirements are owned by Divya Shah. Testing and quality decisions are owned by Meera Joshi. Deployment infrastructure is maintained by Karthik Menon.
+4. Project Alpha Overview
+4.1 Project Description
+Project Alpha is InnovateCorp’s fictional enterprise workflow automation platform. It allows organizations to create workflows that automate repetitive business operations.
+Example workflow:
+Employee submits request → Manager approval → Finance verification → Automated notification → Request completed.
+4.2 Project Goals
+1. Automate repetitive business processes.
+2. Reduce manual approval work.
+3. Provide real-time workflow monitoring.
+4. Provide REST APIs for integrations.
+5. Maintain audit records.
+6. Provide role-based access control.
+7. Support cloud deployment.
+8. Provide analytics dashboards.
+4.3 Current Version
+The current production release is Alpha 4.8.2. The release was internally approved on September 18, 2026.
+4.4 Project Repository
+https://github.com/innovatecorp/project-alpha
+4.5 Project Environments
+Local — Developer testing; Development — Continuous integration testing; Staging — Pre-production validation; Production — Customer-facing environment.
+5. Roles and Responsibilities
+5.1 Engineering Manager
+Priya Nair manages the engineering team, sprint planning, project risks, product coordination, major technical decisions, performance discussions, and engineering metrics.
+5.2 Technical Lead
+Rohan Sharma defines technical architecture, reviews complex pull requests, guides developers, maintains coding standards, investigates production technical issues, and approves architecture changes.
+5.3 Backend Developers
+Backend developers maintain APIs, services, database operations, authentication, and business logic using Java, Spring Boot, PostgreSQL, and Redis.
+5.4 Frontend Developer
+The frontend team develops the web application using React, TypeScript, HTML, CSS, and Material UI.
+5.5 QA Team
+The QA team creates test cases, regression suites, integration tests, API tests, and performance tests.
+5.6 DevOps Engineer
+Karthik Menon manages CI/CD pipelines, cloud infrastructure, deployment, monitoring, infrastructure security, and backup configuration.
+6. Technology Stack
+6.1 Frontend
+React 18, TypeScript, HTML5, CSS3, Vite, and Material UI.
+6.2 Backend
+Java 21, Spring Boot 3.x, Spring Security, Hibernate, and REST APIs.
+6.3 Database
+PostgreSQL 16 is the primary database. Redis is used for session caching, temporary data, and frequently accessed configuration.
+6.4 Cloud Platform
+Project Alpha uses fictional InnovateCorp cloud infrastructure based on Kubernetes, Docker, object storage, managed PostgreSQL, and load balancers.
+6.5 Monitoring
+Prometheus, Grafana, OpenTelemetry, and centralized application logs.
+6.6 Testing
+JUnit, Mockito, Selenium, Postman, and REST Assured.
+7. Development Environment
+7.1 Developer Computer Requirements
+Windows 11 or Ubuntu 24.04; minimum 16 GB RAM; minimum 4 CPU cores; 50 GB available storage; stable internet connection.
+7.2 Required Software
+Git; Java 21; Node.js 22; Docker Desktop; IntelliJ IDEA or VS Code; PostgreSQL client; Postman.
+7.3 Local Setup
+Clone the repository → configure environment variables → start Docker services → initialize database → run backend → run frontend → execute tests. Developers must never commit local environment files containing passwords, API keys, or access tokens.
+7.4 Local URLs
+Frontend: http://localhost:5173
+Backend: http://localhost:8080
+API health endpoint: http://localhost:8080/api/health
+8. Project Management
+8.1 Sprint Duration
+Project Alpha follows a two-week Scrum sprint model. Each sprint lasts 10 working days.
+8.2 Daily Stand-up
+Monday-Friday at 10:00 AM IST. Each member reports what was completed yesterday, what will be worked on today, and blockers. The meeting is limited to approximately 15 minutes.
+8.3 Sprint Planning
+Every second Monday at 11:00 AM IST. Participants: Product Manager, Engineering Manager, Technical Lead, developers, and QA Lead.
+8.4 Sprint Review
+Conducted on the final Thursday of the sprint. The team demonstrates completed functionality to stakeholders.
+8.5 Retrospective
+Conducted on the final Friday. The team discusses what went well, what went wrong, what should change, and action items.
+9. Jira Workflow
+9.1 Jira URL
+https://jira.innovatecorp.example.com
+9.2 Issue Types
+Epic, Story, Task, Bug, Improvement, and Spike.
+9.3 Workflow
+Backlog → Selected for Development → In Progress → Code Review → QA Testing → Ready for Release → Done.
+9.4 Story Requirements
+Title, description, business requirement, acceptance criteria, priority, story points, assignee, and sprint.
+9.5 Definition of Done
+Code implemented; unit tests pass; code review completed; QA testing completed where applicable; documentation updated; no critical defects remain; required deployment checks completed.
+9.6 Jira Priority
+Critical, High, Medium, and Low. Critical issues require immediate engineering attention.
+10. Git and GitHub Workflow
+10.1 Repository
+https://github.com/innovatecorp/project-alpha
+10.2 Branches
+main, develop, feature/*, bugfix/*, hotfix/*, and release/*.
+10.3 Main Branch
+The main branch represents production-ready code. Direct pushes to main are prohibited.
+10.4 Feature Branch
+Use feature/ALPHA-123-short-description. Example: feature/ALPHA-245-workflow-export.
+10.5 Commit Message
+Use the format: ALPHA-245: Add workflow export API.
+10.6 Pull Request
+Every code change requires a pull request containing Jira issue number, summary, technical changes, testing performed, screenshots where relevant, and known limitations.
+10.7 Merge Requirements
+At least one developer review and a successful CI pipeline are required, with no unresolved review comments. Critical architecture changes require Technical Lead approval.
+11. Development Process
+11.1 Lifecycle
+Requirement → Jira Story → Technical Discussion → Development → Unit Testing → Pull Request → Code Review → CI Pipeline → QA Testing → Staging → Production.
+11.2 Requirement Analysis
+Developers read the Jira description, acceptance criteria, related documentation, and existing implementation. Questions should be clarified before coding.
+11.3 Implementation
+Developers create a feature branch and implement the requirement according to project standards.
+11.4 Local Testing
+Before a pull request, developers run unit tests, static analysis, application build, and relevant API tests.
+11.5 Continuous Integration
+The CI pipeline performs compilation, unit tests, static analysis, dependency scanning, container build, and integration tests.
+12. Code Review Process
+12.1 Reviewer Responsibilities
+Reviewers check correctness, readability, maintainability, security, performance, test coverage, and error handling.
+12.2 Review Time
+Developers are expected to review assigned pull requests within one working day.
+12.3 Review Comments
+Comments should be specific, technical, constructive, and actionable.
+12.4 Approval
+A pull request can be merged after required approvals and successful automated checks.
+12.5 Large Pull Requests
+Pull requests exceeding approximately 500 changed lines should normally be divided into smaller logical changes unless there is a documented reason.
+13. Testing and Quality Assurance
+13.1 Testing Levels
+Unit testing, integration testing, API testing, UI testing, regression testing, performance testing, and security testing.
+13.2 Unit Testing
+Backend unit tests use JUnit 5 and Mockito. Developers are responsible for unit tests for their code.
+13.3 Integration Testing
+Integration tests verify communication between the application, database, Redis, and external services.
+13.4 API Testing
+API testing is performed primarily using Postman and REST Assured.
+13.5 UI Testing
+Selenium is used for selected end-to-end workflows.
+13.6 Regression Testing
+Regression testing is conducted before every production release.
+13.7 Quality Gate
+A production release should not proceed if critical tests fail, critical security vulnerabilities exist, blocking bugs remain, or required approvals are missing.
+14. Bug Reporting
+14.1 Required Bug Information
+Summary, environment, steps to reproduce, expected result, actual result, severity, priority, screenshots/logs, browser or device information where relevant, and related Jira issue.
+14.2 Example Bug
+Title: Workflow approval button fails after session timeout. Environment: Staging. Steps: log in, open pending workflow, leave inactive for 30 minutes, click Approve. Expected: redirect to authentication. Actual: unhandled error.
+14.3 Severity
+Blocker, Critical, Major, Minor, and Trivial.
+15. Documentation
+15.1 Documentation Platform
+https://confluence.innovatecorp.example.com
+15.2 Documentation Types
+Architecture documents, API documentation, deployment guides, troubleshooting guides, onboarding documentation, security procedures, and release notes.
+15.3 Documentation Owner
+Each major technical document must have an owner who reviews it quarterly.
+15.4 API Documentation
+REST APIs are documented using OpenAPI at https://engineering.innovatecorp.example.com/alpha/api.
+16. Communication Tools
+16.1 Slack
+Project Alpha channels: #alpha-general, #alpha-development, #alpha-qa, #alpha-devops, and #alpha-alerts.
+16.2 Email
+Company email format: firstname.lastname@innovatecorp.example.com.
+16.3 Microsoft Teams
+Used for formal meetings, customer meetings, screen sharing, and training sessions.
+16.4 Communication Guidelines
+Urgent production incidents should not be communicated only through email. Production incidents should be posted in #alpha-alerts.
+17. Employee Onboarding
+17.1 First Day
+New employees receive a company account, laptop, email account, Slack access, Jira access, GitHub access, and documentation access.
+17.2 First Week
+Meet manager; meet technical lead; complete security training; configure development environment; clone repository; run application locally; read architecture documentation; complete a small starter Jira task.
+17.3 First 30 Days
+Understand project architecture, Git workflow, Jira workflow, testing process, deployment process, and security policies.
+17.4 Onboarding Buddy
+Each new employee receives an onboarding buddy. Vikram Patel is the current onboarding buddy for backend developers.
+18. Security Practices
+18.1 Password Policy
+Passwords must be unique, not shared, not stored in source code, and not written in public documents.
+18.2 Multi-Factor Authentication
+MFA is required for GitHub, Jira, cloud infrastructure, corporate email, and VPN.
+18.3 Secrets
+API keys and credentials must be stored in the approved secrets management system and never committed to Git.
+18.4 Access Control
+Project Alpha follows role-based access control. Users receive only permissions required for their responsibilities.
+18.5 Security Incident
+Report immediately to security@innovatecorp.example.com and post in the appropriate internal security channel.
+18.6 Security Training
+Employees must complete security awareness training every six months.
+19. IT Support
+19.1 IT Helpdesk
+https://helpdesk.innovatecorp.example.com
+19.2 IT Support Email
+it-support@innovatecorp.example.com
+19.3 Common IT Requests
+Password reset, laptop issues, VPN access, software installation, account permissions, and network problems.
+19.4 Support Hours
+Monday-Friday, 9:00 AM-6:00 PM IST. Critical infrastructure issues are handled through the on-call process.
+20. Deployment Process
+20.1 Deployment Environments
+Development → Staging → Production.
+20.2 Development Deployment
+Development deployments occur automatically after successful CI validation for eligible branches.
+20.3 Staging Deployment
+Triggered after relevant pull requests are merged and the release candidate is created. QA validates in staging.
+20.4 Production Deployment
+Requires QA approval, engineering approval, release approval, successful automated pipeline, and deployment checklist completion.
+20.5 Production Window
+Normal production deployments occur Thursday, 7:00 PM-9:00 PM IST. Emergency hotfixes can occur outside this window with appropriate authorization.
+20.6 Rollback
+If a deployment causes a serious production problem, the team may roll back to the previous stable version. Karthik Menon coordinates rollback activities.
+21. Performance Reviews
+21.1 Review Frequency
+Formal employee performance reviews occur twice a year: June and December.
+21.2 Review Areas
+Technical contribution, quality, collaboration, ownership, communication, learning, and goal completion.
+21.3 Goal Setting
+Employees define measurable, role-relevant goals with their manager.
+21.4 Example Goal
+A backend developer goal might be: Improve API test coverage for the workflow service during the next review period. Managers evaluate progress using documented evidence.
+22. Training and Learning
+22.1 Internal Training
+Engineering Learning Program sessions occur every Wednesday at 4:00 PM IST. Topics include Java, React, cloud technologies, security, database optimization, testing, and system design.
+22.2 Knowledge Sharing
+Project Alpha conducts a technical knowledge-sharing session every second Friday, coordinated by Rohan Sharma.
+22.3 Learning Portal
+https://learn.innovatecorp.example.com
+22.4 Training Approval
+Employees requesting external technical training submit a request through the HR portal. Manager approval is required before paid training is purchased.
+23. Important Resources
+23.1 Resource Directory
+Employee portal: https://portal.innovatecorp.example.com
+Jira: https://jira.innovatecorp.example.com
+GitHub: https://github.com/innovatecorp/project-alpha
+Confluence: https://confluence.innovatecorp.example.com
+IT helpdesk: https://helpdesk.innovatecorp.example.com
+Engineering portal: https://engineering.innovatecorp.example.com
+API documentation: https://engineering.innovatecorp.example.com/alpha/api
+Learning portal: https://learn.innovatecorp.example.com
+Internal status: https://status.innovatecorp.example.com
+Monitoring: https://monitoring.innovatecorp.example.com
+All URLs are fictional.
+24. Frequently Asked Questions
+Q1. Who is the Engineering Manager for Project Alpha?
+Priya Nair.
+Q2. Who is the Technical Lead?
+Rohan Sharma.
+Q3. Who owns product requirements?
+Divya Shah, the Product Manager.
+Q4. Who is responsible for QA?
+Meera Joshi is the QA Lead, supported by Arjun Rao.
+Q5. Who manages deployment infrastructure?
+Karthik Menon.
+Q6. What database does Project Alpha use?
+PostgreSQL 16, with Redis for caching and temporary data.
+Q7. What programming language is used for the backend?
+Java 21 with Spring Boot 3.x.
+Q8. What framework is used for the frontend?
+React 18 with TypeScript.
+Q9. How long is a sprint?
+10 working days.
+Q10. When is the daily stand-up?
+Monday-Friday at 10:00 AM IST.
+Q11. When is sprint planning?
+Every second Monday at 11:00 AM IST.
+Q12. Which tool is used for issue tracking?
+Jira.
+Q13. Which tool is used for source control?
+Git and GitHub.
+Q14. Can developers push directly to main?
+No. Direct pushes to main are prohibited; changes must use the pull-request process.
+Q15. What should a pull request contain?
+Jira issue number, summary, technical changes, testing performed, screenshots where relevant, and known limitations.
+Q16. How many code reviews are required?
+At least one developer review for a normal pull request; critical architecture changes require Technical Lead approval.
+Q17. What framework is used for Java unit tests?
+JUnit 5 and Mockito.
+Q18. What is the production deployment window?
+Thursday, 7:00 PM-9:00 PM IST.
+Q19. What happens if production deployment fails?
+The team investigates and may roll back to the previous stable version; the DevOps Engineer coordinates rollback.
+Q20. Where should security incidents be reported?
+security@innovatecorp.example.com and the appropriate internal security channel.
+Q21. Where should IT problems be reported?
+https://helpdesk.innovatecorp.example.com or it-support@innovatecorp.example.com.
+Q22. How often are performance reviews conducted?
+Twice a year, in June and December.
+Q23. How often is security training required?
+Every six months.
+Q24. Where is Project Alpha source code stored?
+https://github.com/innovatecorp/project-alpha.
+Q25. What environments are available?
+Local, Development, Staging, and Production.
+Q26. What is the documented production release version?
+Alpha 4.8.2.
+Q27. Who is the onboarding buddy for backend developers?
+Vikram Patel.
+Q28. What is the standard Jira workflow?
+Backlog → Selected for Development → In Progress → Code Review → QA Testing → Ready for Release → Done.
+Q29. What is the company mission?
+Build reliable technology that makes complex business processes simple, measurable, and accessible.
+Q30. What should developers never commit to Git?
+Passwords, API keys, access tokens, or other confidential credentials.
+Appendix A — Project Alpha Quick Reference
+Appendix B — Standard Developer Workflow
+1. Check Jira
+2. Select assigned story
+3. Read acceptance criteria
+4. Create feature branch
+5. Implement functionality
+6. Write/update unit tests
+7. Run local tests
+8. Push branch to GitHub
+9. Create Pull Request
+10. Address review comments
+11. Wait for CI checks
+12. Merge after approval
+13. QA validates in staging
+14. Release candidate created
+15. Production deployment
+Appendix C — Standard Incident Escalation
+Issue Detected → Create/Update Jira Incident → Notify #alpha-alerts → Notify Engineering Manager → DevOps investigates infrastructure → Technical Lead investigates application → QA validates impact → Rollback or Fix → Verify Production → Document Root Cause → Create Preventive Actions.
+The incident record should document detection time, impact, affected service, investigation, actions taken, resolution time, root cause, and preventive action.
+Appendix D — RAG-Oriented Knowledge Relationships
+People → Roles:
+Priya Nair → Engineering Manager
+Rohan Sharma → Technical Lead
+Divya Shah → Product Manager
+Meera Joshi → QA Lead
+Karthik Menon → DevOps Engineer
+Vikram Patel → Backend Developer / Onboarding Buddy
+Tools → Purpose:
+Jira → Issue tracking
+GitHub → Source control
+Confluence → Documentation
+Slack → Daily communication
+Microsoft Teams → Formal meetings
+Postman → API testing
+Selenium → UI testing
+Prometheus → Metrics
+Grafana → Monitoring dashboards
+Technologies → Project Components:
+React + TypeScript → Frontend
+Java + Spring Boot → Backend
+PostgreSQL → Primary database
+Redis → Cache
+Docker → Containerization
+Kubernetes → Container orchestration
+Schedule → Activity:
+10:00 AM weekdays → Daily stand-up
+11:00 AM every second Monday → Sprint planning
+Final Thursday → Sprint review
+Final Friday → Sprint retrospective
+Thursday 7:00-9:00 PM → Normal production deployment
+Wednesday 4:00 PM → Engineering training
+Every second Friday → Technical knowledge-sharing session
+June and December → Performance reviews
+Every six months → Security training
+Appendix E — Example RAG Questions
+1. Who is responsible for Project Alpha's deployment infrastructure?
+2. What technology is used for caching?
+3. When does the team conduct sprint planning?
+4. Who approves architecture changes?
+5. What happens between Code Review and Production?
+6. Which person is both a backend developer and onboarding buddy?
+7. What tools are used for API testing?
+8. What is the production deployment window?
+9. What is the difference between the Development and Staging environments?
+10. Who owns product requirements and what is their role?
+11. What happens if a production deployment causes a serious problem?
+12. What information is required when creating a Jira bug?
+13. What are the conditions for marking a Jira issue as Done?
+14. Which technologies are used between the frontend and database layers?
+15. What security controls are required for GitHub access?
+16. Who should a new backend developer contact during onboarding?
+17. How frequently does Project Alpha conduct technical knowledge-sharing sessions?
+18. What is the current production release version?
+19. Who is responsible for QA and what tools does the QA team use?
+20. What is the complete development lifecycle from requirement to production?
+21. Which communication channel should be used for production incidents?
+22. What are the required pull-request checks?
+23. What are the Project Alpha environments in deployment order?
+24. Which technologies make up the Project Alpha backend stack?
+25. What is the company's mission and how does Project Alpha support it?
+
+Document ID | IC-KT-001
+Version | 1.0
+Status | Active
+Last Updated | September 2026
+Company | InnovateCorp Technologies Pvt. Ltd.
+Primary Office | Hyderabad, Telangana, India
+Project | Project Alpha
+Document Owner | Priya Nair, Engineering Manager
+Review Frequency | Quarterly
+Next Scheduled Review | December 2026
+
+Category | Information
+Company | InnovateCorp Technologies Pvt. Ltd.
+Project | Project Alpha
+Engineering Manager | Priya Nair
+Technical Lead | Rohan Sharma
+Product Manager | Divya Shah
+QA Lead | Meera Joshi
+DevOps Engineer | Karthik Menon
+Backend | Java 21 + Spring Boot
+Frontend | React 18 + TypeScript
+Database | PostgreSQL 16
+Cache | Redis
+Container | Docker
+Orchestration | Kubernetes
+Source Control | Git + GitHub
+Issue Tracking | Jira
+Documentation | Confluence
+Testing | JUnit, Mockito, Selenium, Postman, REST Assured
+Monitoring | Prometheus, Grafana, OpenTelemetry
+Sprint | 10 working days
+Stand-up | Monday-Friday, 10:00 AM IST
+Production Window | Thursday, 7:00-9:00 PM IST
+Production Version | Alpha 4.8.2
